@@ -1,1 +1,4 @@
-// Put all your JavaScript in this file!
+function changeBg (object){
+	var cl = prompt("write a color");
+	object.style.backgroundColor  = cl ;
+}
