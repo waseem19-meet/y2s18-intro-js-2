@@ -1,6 +1,15 @@
 // YOUR TASK: Add more pictures!
-var pictures = ['./imgs/dog.jpg'];
+var pictures = ['./imgs/img1.jpg', './imgs/img2.jpg', './imgs/img3.jpg', './imgs/img4.jpg', './imgs/img5.jpg','./imgs/dog.jpg'];
 var currentIndex = 0;
+
+document.getElementsByTagName("img")[0].addEventListener("click", function (event){
+
+	alert("HI");
+})
+
+
+
+
 
 function showNextPicture() {
   currentIndex++; // increment current picture
